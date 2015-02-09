@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.org/nice-try-bro/simple_sched.svg?branch=master)](https://travis-ci.org/nice-try-bro/simple_sched)
+[![Coverage Status](https://coveralls.io/repos/nice-try-bro/simple_sched/badge.svg)](https://coveralls.io/r/nice-try-bro/simple_sched)
