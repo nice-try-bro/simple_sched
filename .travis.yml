@@ -8,6 +8,8 @@ before_script:
   - psql -c 'create database scheduler_test;' -U postgres
 deploy:
   provider: heroku
+  environment:
+    master: development
   api_key:
     secure: NYQP0tT/n8GvIKFSWdsKsCZwvYhfEHtO2bGzdN9Mc0gRdF60HC7q3aC+gH1QTDp57hXgdqQUkcrkALXrkAqMu94toEr0mo4rvVAow23RO2pKBu+oTmfBjrhJlXbYuMAjwL8dGLZxMk8Db6saN8Y4oZE9pxr+NgbEjrc4zTIlFGo=
   app: simple-sched
